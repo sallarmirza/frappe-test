@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{village}-{district}-{##}",
+ "creation": "2024-08-26 13:16:16.558505",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_2ndt",
+  "amended_from",
+  "patient",
+  "form_number",
+  "pat_nam",
+  "village",
+  "district",
+  "medical_officer"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_2ndt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Location",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fetch_from": "patient.fmno",
+   "fieldname": "form_number",
+   "fieldtype": "Int",
+   "label": "Form Number"
+  },
+  {
+   "fetch_from": "patient.vcity",
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fetch_from": "patient.mo",
+   "fieldname": "medical_officer",
+   "fieldtype": "Data",
+   "label": "Medical Officer"
+  },
+  {
+   "fetch_from": "patient.dist",
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "label": "Patient Form",
+   "options": "TBR"
+  },
+  {
+   "fetch_from": "patient.patnam",
+   "fieldname": "pat_nam",
+   "fieldtype": "Data",
+   "label": "Patient Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-26 14:06:06.458328",
+ "modified_by": "Administrator",
+ "module": "test",
+ "name": "Location",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-19 14:30:00.239177",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_kz4y",
+  "specimen_1",
+  "specimen_2",
+  "specimen_3"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_kz4y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specimen_1",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Specimen 1",
+   "options": "\nLocal lab Serial Number\nLocal Lab sputum GeneXpert result\nType of specimen collected\nDate specimen Transported to PRL"
+  },
+  {
+   "fieldname": "specimen_2",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Specimen 2",
+   "options": "\nLocal lab Serial Number\nLocal Lab sputum GeneXpert result\nType of specimen collected\nDate specimen Transported to PRL"
+  },
+  {
+   "fieldname": "specimen_3",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Specimen 3",
+   "options": "\nLocal lab Serial Number\nLocal Lab sputum GeneXpert result\nType of specimen collected\nDate specimen Transported to PRL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-19 17:20:34.072275",
+ "modified_by": "Administrator",
+ "module": "test",
+ "name": "Specieman",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

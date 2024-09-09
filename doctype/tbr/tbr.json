@@ -1,0 +1,630 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{dist}-{###}",
+ "creation": "2024-08-20 14:02:55.768103",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ygob",
+  "amended_from",
+  "tbr_tab",
+  "dcnam",
+  "column_break_wzfa",
+  "cluster_code",
+  "patient_identification_information_section",
+  "fmno",
+  "intdate",
+  "fourcode",
+  "column_break_ilwk",
+  "patnam",
+  "fhusnam",
+  "tbreg",
+  "addr",
+  "vcity",
+  "tcnum",
+  "age",
+  "sex",
+  "column_break_zgpm",
+  "dist",
+  "mobnum",
+  "speciemen_infromation_section",
+  "specimen_id_information",
+  "hubptb",
+  "information_regarding_pervious_illness_section",
+  "hlsick",
+  "sspe",
+  "idpe",
+  "xryexp",
+  "spexp",
+  "tmom",
+  "attdugy",
+  "injim",
+  "rpttb",
+  "information_about_previuos_tb_treatment_section",
+  "tbtmo",
+  "wtbt",
+  "whpttby",
+  "whpttbn",
+  "whomt",
+  "watkt",
+  "hlrectr",
+  "toutcom",
+  "tretrec",
+  "nmattdrg",
+  "medical_records_section",
+  "patregtbm",
+  "plotcom",
+  "final_decision_section",
+  "dolt",
+  "otptret",
+  "additional_questions_section",
+  "hlys",
+  "coug",
+  "spucoug",
+  "bldcoug",
+  "chstpnl",
+  "fevrnit",
+  "nitswet",
+  "losapt",
+  "loswty",
+  "othsymp",
+  "socio_economic_status_section",
+  "mhtong",
+  "education",
+  "emplmnt",
+  "istemp3",
+  "famlymem",
+  "moninicms",
+  "health_seeking_behaviour_section",
+  "when_you_first_felt_sick",
+  "for_how_long_did_you_wait_before_seeking_health_care",
+  "mdicphar",
+  "publichf",
+  "hftrets",
+  "wvfpill",
+  "advise",
+  "smoking_section",
+  "smok",
+  "smoky",
+  "responsible_medical_officer_section",
+  "mo",
+  "column_break_dqxx",
+  "mosig",
+  "column_break_wrf2",
+  "mosigdat"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ygob",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "TBR",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "tbr_tab",
+   "fieldtype": "Tab Break",
+   "label": "TBR"
+  },
+  {
+   "fieldname": "cluster_code",
+   "fieldtype": "Int",
+   "label": "Cluster Code",
+   "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "patient_identification_information_section",
+   "fieldtype": "Section Break",
+   "label": "PATIENT IDENTIFICATION INFORMATION"
+  },
+  {
+   "fieldname": "intdate",
+   "fieldtype": "Date",
+   "label": "Date of Interview",
+   "reqd": 1
+  },
+  {
+   "fieldname": "patnam",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Patient Name ",
+   "length": 25,
+   "reqd": 1
+  },
+  {
+   "fieldname": "fhusnam",
+   "fieldtype": "Data",
+   "label": "Father/ Husband Name",
+   "length": 25
+  },
+  {
+   "fieldname": "tbreg",
+   "fieldtype": "Data",
+   "label": "TB Registration Number",
+   "length": 10
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "addr",
+   "fieldtype": "Section Break",
+   "label": "Address"
+  },
+  {
+   "fieldname": "vcity",
+   "fieldtype": "Data",
+   "label": "Village / City"
+  },
+  {
+   "fieldname": "tcnum",
+   "fieldtype": "Phone",
+   "label": "Telephone Contact"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age",
+   "length": 3,
+   "reqd": 1
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "label": "Sex",
+   "options": "\nMale\nFemale\nNot Recorded",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zgpm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dist",
+   "fieldtype": "Data",
+   "label": "District "
+  },
+  {
+   "fieldname": "mobnum",
+   "fieldtype": "Phone",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "fourcode",
+   "fieldtype": "Data",
+   "label": "4 Digit PIN Code",
+   "length": 7,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ilwk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wzfa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "depends_on": "eval: doc.hubptb==\"Yes\"",
+   "fieldname": "information_regarding_pervious_illness_section",
+   "fieldtype": "Section Break",
+   "label": "INFORMATION REGARDING PERVIOUS ILLNESS"
+  },
+  {
+   "fieldname": "hlsick",
+   "fieldtype": "Data",
+   "label": "For how long have you been sick? (in months))"
+  },
+  {
+   "fieldname": "sspe",
+   "fieldtype": "Select",
+   "label": "Did you have the same symptoms prior to this episode?",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "idpe",
+   "fieldtype": "Select",
+   "label": "Did you have other symptoms of lung disease prior to this episode",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "xryexp",
+   "fieldtype": "Select",
+   "label": "Did you have X-ray examinations prior to this episode?",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "spexp",
+   "fieldtype": "Select",
+   "label": "Did you have sputum examination prior to this episode?",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "tmom",
+   "fieldtype": "Select",
+   "label": "Do you remember taking any treatment for more than one month",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "attdugy",
+   "fieldtype": "Select",
+   "label": "If yes, do you remeber taking any drugs (show samples)",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "injim",
+   "fieldtype": "Select",
+   "label": "Did you ever have injections for more than a month?",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "rpttb",
+   "fieldtype": "Select",
+   "label": "Did the patient remember previous treatment for TB  after these questions?",
+   "options": "\nNo\nYes"
+  },
+  {
+   "collapsible": 1,
+   "depends_on": "eval: doc.rpttb==\"Yes\"  || doc.hubptb==\"No\"",
+   "fieldname": "information_about_previuos_tb_treatment_section",
+   "fieldtype": "Section Break",
+   "label": "INFORMATION ABOUT PREVIUOS TB TREATMENT"
+  },
+  {
+   "fieldname": "tbtmo",
+   "fieldtype": "Select",
+   "label": "Have you been previously treated for TB for more than Once?",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "wtbt",
+   "fieldtype": "Select",
+   "label": "WHERE were you previously treated for TB?",
+   "options": "\nPublic Sector\nPrivate Sector\nOther. Please"
+  },
+  {
+   "fieldname": "whpttby",
+   "fieldtype": "Select",
+   "label": "Do you remember exactly WHEN were you previously treated for TB ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "whpttbn",
+   "fieldtype": "Select",
+   "label": "If NO approximately how much time has passed since your previous treatment for TB ?",
+   "options": "\nless then one year\nbetween 1 to 2 years\nbetweeen 2 to 5 years\nmore then 5 years"
+  },
+  {
+   "fieldname": "whomt",
+   "fieldtype": "Select",
+   "label": "By whom were you previoulsy treated for TB?",
+   "options": "\nDoctor\nNurse\nPharmacist\nTraditional Healer\nOther"
+  },
+  {
+   "fieldname": "watkt",
+   "fieldtype": "Select",
+   "label": "Do you remember what kind of treatment was used for treatment ? ",
+   "options": "\nPills and Injections\nPills only\nInjections only\nDon't Remember"
+  },
+  {
+   "fieldname": "hlrectr",
+   "fieldtype": "Select",
+   "label": "For how long did you receive this treatment ?",
+   "options": "\nLess than a month\n1 to 2 months\n6 to 8 months\nOthers"
+  },
+  {
+   "fieldname": "toutcom",
+   "fieldtype": "Select",
+   "label": "What was the outcome of the treatment (according to the patient)?",
+   "options": "\nCured\nNot Cured\nUnknown"
+  },
+  {
+   "fieldname": "tretrec",
+   "fieldtype": "Select",
+   "label": "Do you have medical/treatment records/prescription of your previous treatment ?",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "nmattdrg",
+   "fieldtype": "Data",
+   "label": "If yes note anti TB drugs  taken :         "
+  },
+  {
+   "fieldname": "medical_records_section",
+   "fieldtype": "Section Break",
+   "label": "MEDICAL RECORDS"
+  },
+  {
+   "fieldname": "patregtbm",
+   "fieldtype": "Select",
+   "label": "Patient has been registered for tuberculosis treatment before ?",
+   "options": "\nNo\nYes"
+  },
+  {
+   "fieldname": "plotcom",
+   "fieldtype": "Select",
+   "label": "If yes, what was the outcome of previous course of treatment?",
+   "options": "\nCured\nTreatment completed\nLoss to follow up\nFailure\nTransfer out"
+  },
+  {
+   "fieldname": "final_decision_section",
+   "fieldtype": "Section Break",
+   "label": "FINAL DECISION"
+  },
+  {
+   "fieldname": "dolt",
+   "fieldtype": "Data",
+   "label": "Patient has been previously treated for tuberculosis for more than one month ?"
+  },
+  {
+   "fieldname": "otptret",
+   "fieldtype": "Data",
+   "label": "If you ticked \u201cYes\u201d under D1, what was the outcome of the previous treatment ?"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "additional_questions_section",
+   "fieldtype": "Section Break",
+   "label": "ADDITIONAL QUESTIONS"
+  },
+  {
+   "fieldname": "hlys",
+   "fieldtype": "Data",
+   "label": " For how long have you been sick ? "
+  },
+  {
+   "fieldname": "coug",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of cough ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "spucoug",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of Sputum while coughing ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "bldcoug",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of coughing up of blood?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "chstpnl",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of chest pains ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "fevrnit",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of fever at night?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "nitswet",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of night sweats?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "losapt",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of loss of appetite ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "loswty",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of loss of weight?  ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "othsymp",
+   "fieldtype": "Select",
+   "label": "Do you have complaint of other symptoms ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "socio_economic_status_section",
+   "fieldtype": "Section Break",
+   "label": "SOCIO ECONOMIC STATUS"
+  },
+  {
+   "fieldname": "mhtong",
+   "fieldtype": "Select",
+   "label": "What is your mother tongue (To which ethnicity do you belong?)",
+   "options": "\nPunjabi\nSindhi\nBolochi\nPushtoon\nSaraiki\nKashmiri\nUrdu Speaking\nOther"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Select",
+   "label": "What is your highest level of education ?  ",
+   "options": "\nNo schooling\nPrimary school, not completed\nPrimary school, completed\nSecondary school, not completed\nSecondary school, completed\nFurther education after secondary school"
+  },
+  {
+   "fieldname": "emplmnt",
+   "fieldtype": "Select",
+   "label": "Employment Status",
+   "options": "\nGovernment employee\nPrivate employee\nSelf employed\nPupil/student\nHousewife\nUnemployed\nOther"
+  },
+  {
+   "fieldname": "istemp3",
+   "fieldtype": "Select",
+   "label": "If employed, what has been your occupation during last three months ?",
+   "options": "\nBusiness\nShop keeping\nFarming\nOffice work\nTeacher\nManual labour\nOther"
+  },
+  {
+   "fieldname": "famlymem",
+   "fieldtype": "Int",
+   "label": "Number of family members",
+   "length": 2
+  },
+  {
+   "fieldname": "moninicms",
+   "fieldtype": "Int",
+   "label": "Monthly income",
+   "length": 7
+  },
+  {
+   "fieldname": "health_seeking_behaviour_section",
+   "fieldtype": "Section Break",
+   "label": "HEALTH SEEKING BEHAVIOUR"
+  },
+  {
+   "fieldname": "when_you_first_felt_sick",
+   "fieldtype": "Data",
+   "label": "When you first felt sick"
+  },
+  {
+   "fieldname": "for_how_long_did_you_wait_before_seeking_health_care",
+   "fieldtype": "Data",
+   "label": "For how long did you wait before seeking health care?"
+  },
+  {
+   "fieldname": "mdicphar",
+   "fieldtype": "Select",
+   "label": "Did you buy medicine from pharmacy? ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "publichf",
+   "fieldtype": "Select",
+   "label": "Which of the following health care facilities/providers have you visited to seek treatment or advice for your symptoms",
+   "options": "\nPublic Health Sector"
+  },
+  {
+   "fieldname": "hftrets",
+   "fieldtype": "Select",
+   "label": "If yes, which one of following public health centres  ",
+   "options": "\nBasic Health Unit\nRural Health Center\nTehsil HQ Hospital\nDistrict HQ Hospital\nTB Centre\nPrivate practitioner\nTraditional healer\nPharmacy\nOther\nNone"
+  },
+  {
+   "fieldname": "wvfpill",
+   "fieldtype": "Int",
+   "label": "When did you first visit this health centre to seek care for your present illness (days back))",
+   "length": 3
+  },
+  {
+   "fieldname": "advise",
+   "fieldtype": "Select",
+   "label": "Have you been advised/undertaken any other investigation for diagnosis of your illness beside sputum test ?",
+   "options": "\nX-ray\nBlood test\nSkin Test\nOther"
+  },
+  {
+   "fieldname": "smoking_section",
+   "fieldtype": "Section Break",
+   "label": "Smoking"
+  },
+  {
+   "fieldname": "smok",
+   "fieldtype": "Select",
+   "label": "Do you somke ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "responsible_medical_officer_section",
+   "fieldtype": "Section Break",
+   "label": "Responsible Medical Officer"
+  },
+  {
+   "fieldname": "mo",
+   "fieldtype": "Data",
+   "label": "Medical Officer Name"
+  },
+  {
+   "fieldname": "mosig",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "mosigdat",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_dqxx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wrf2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "speciemen_infromation_section",
+   "fieldtype": "Section Break",
+   "label": "Speciemen Infromation"
+  },
+  {
+   "fieldname": "specimen_id_information",
+   "fieldtype": "Table",
+   "label": "Specimen ID Information",
+   "options": "Specimen Information"
+  },
+  {
+   "fieldname": "fmno",
+   "fieldtype": "Int",
+   "label": "Form Number",
+   "length": 5,
+   "read_only": 1
+  },
+  {
+   "fieldname": "dcnam",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of diagnostic centre",
+   "length": 35,
+   "reqd": 1
+  },
+  {
+   "fieldname": "hubptb",
+   "fieldtype": "Select",
+   "label": "Have you been previously treated for TB?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "depends_on": "eval: doc.smok==\"Yes\"",
+   "fieldname": "smoky",
+   "fieldtype": "Int",
+   "label": "How many years",
+   "length": 2
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-26 12:41:39.834441",
+ "modified_by": "Administrator",
+ "module": "test",
+ "name": "TBR",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

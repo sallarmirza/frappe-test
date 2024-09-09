@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 14:48:55.927934",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ais4",
+  "district_names"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ais4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "district_names",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "District Names",
+   "options": "District"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-02 16:37:47.240926",
+ "modified_by": "Administrator",
+ "module": "test",
+ "name": "District Names",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

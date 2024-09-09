@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:client_name",
+ "creation": "2024-08-29 10:48:45.239538",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_jwhi",
+  "amended_from",
+  "client_tab",
+  "client_id",
+  "column_break_xeji",
+  "client_name",
+  "section_break_wul0",
+  "client_address",
+  "save"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_jwhi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "demo",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "client_tab",
+   "fieldtype": "Tab Break",
+   "label": "Client "
+  },
+  {
+   "fieldname": "client_id",
+   "fieldtype": "Data",
+   "label": "Client Id",
+   "read_only": 1
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_xeji",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_wul0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_address",
+   "fieldtype": "Data",
+   "label": "Client Address"
+  },
+  {
+   "fieldname": "save",
+   "fieldtype": "Button",
+   "label": "Save"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-29 10:54:47.094454",
+ "modified_by": "Administrator",
+ "module": "test",
+ "name": "demo",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

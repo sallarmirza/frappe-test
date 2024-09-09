@@ -1,0 +1,1485 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-19 14:01:28.538757",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_6ysv",
+  "fmno",
+  "column_break_ovjb",
+  "dcnam",
+  "patient_identification_information_section",
+  "culscod",
+  "fourcode",
+  "intdate",
+  "column_break_rxc4",
+  "patnam",
+  "fhusnam",
+  "tbreg",
+  "addr",
+  "vcity",
+  "countnum",
+  "age",
+  "column_break_d4ii",
+  "dist",
+  "mobnum",
+  "sex",
+  "male",
+  "column_break_cdqn",
+  "female",
+  "section_break_hyzl",
+  "specimen",
+  "tbtmo",
+  "yes1",
+  "no1",
+  "infromation_regarding_previous_illness",
+  "for_how_long_have_you_been_sick",
+  "did_you_have_the_same_symptoms_prior_to_this_episode_section",
+  "yes19",
+  "no19",
+  "dyhxpte",
+  "no21",
+  "yes21",
+  "information_about_pre",
+  "have_you_been_previously_treated_for_tb_section",
+  "yes18",
+  "no18",
+  "dyhanys",
+  "yes20",
+  "no20",
+  "tmom",
+  "yes17",
+  "no17",
+  "attdug",
+  "wtbt",
+  "public_sector",
+  "column_break_jzcs",
+  "private_sector",
+  "column_break_tnf2",
+  "other_please_specify",
+  "whpttb",
+  "yes2",
+  "column_break_0tma",
+  "no2",
+  "whpttbn",
+  "less_then_one_year",
+  "between_1_to_2_year",
+  "between_2_to_5_years",
+  "more_then_5_years",
+  "whomt",
+  "doctor",
+  "nurse",
+  "pharmacist",
+  "trad_heal1",
+  "other1",
+  "watkt",
+  "pills_and_injection",
+  "pills_only",
+  "injections_only",
+  "dont_remeber",
+  "hlrectr",
+  "less_than_a_month",
+  "1_to_2_month",
+  "6_to_8_month",
+  "others_please_specify",
+  "toutcom",
+  "cured1",
+  "not_cured",
+  "unknown1",
+  "tretrec",
+  "no",
+  "yes3",
+  "nmattdrg",
+  "medical_records_section",
+  "patregtbm",
+  "no3",
+  "column_break_a8xg",
+  "yes4",
+  "ptotcom",
+  "cured2",
+  "treatment_completed",
+  "lfu",
+  "failure",
+  "transfer_out",
+  "dolt",
+  "no4",
+  "yes5",
+  "doubtful",
+  "otptret",
+  "cured_treatment_completed",
+  "loss_to_follow_up",
+  "relapse_follow_up_not_distinguishable",
+  "column_break_jx4s",
+  "failed",
+  "relapse",
+  "chronic",
+  "unknown",
+  "coug",
+  "yes6",
+  "no5",
+  "spucoug",
+  "yes7",
+  "no6",
+  "bldcoug",
+  "yes8",
+  "no7",
+  "chstpnl",
+  "yes9",
+  "no8",
+  "fevrnit",
+  "yes10",
+  "no9",
+  "losapty",
+  "yes11",
+  "no10",
+  "loswty",
+  "yes12",
+  "no11",
+  "othsymp",
+  "yes13",
+  "no12",
+  "pthsympy",
+  "mthting",
+  "punjabi",
+  "pushtoon",
+  "urdu_speaking",
+  "column_break_kwsv",
+  "sindhi",
+  "saraki",
+  "other_specify1",
+  "column_break_9egn",
+  "balochi",
+  "kashmiri",
+  "education",
+  "no_schooling",
+  "primary_schoolcompleted",
+  "secondary_school_completed",
+  "column_break_dbf8",
+  "primary_schoolnot_completed",
+  "secondary_schoolnot_completed",
+  "furthur_education_after_secondary_school",
+  "emplmnt",
+  "government_employee",
+  "pupil_student",
+  "other_specify2",
+  "column_break_zxoa",
+  "private_employee",
+  "housewife",
+  "column_break_qddf",
+  "self_employed",
+  "unemplpyed",
+  "istemp3",
+  "business",
+  "office_work",
+  "istemp3s",
+  "column_break_mldr",
+  "shop_keeping",
+  "teacher",
+  "column_break_vswc",
+  "farming",
+  "manual_labour",
+  "number_of_family_members",
+  "monincms",
+  "mdicphar",
+  "yes14",
+  "no13",
+  "pubhichf",
+  "public_sec",
+  "column_break_4ehl",
+  "yes15",
+  "no14",
+  "hftrets",
+  "basic_health_unit",
+  "district_hq_hospital",
+  "private_practitioner",
+  "trad_heal2",
+  "phramacy",
+  "other_specify",
+  "none",
+  "column_break_cvmt",
+  "rural_health_center",
+  "tb_centre",
+  "column_break_j8sq",
+  "tehsil_hq_hospital",
+  "advise",
+  "xray",
+  "column_break_fyhe",
+  "blood_test",
+  "column_break_xuae",
+  "skin_test",
+  "column_break_tpuw",
+  "other2",
+  "smok",
+  "no15",
+  "column_break_bxgu",
+  "yes16",
+  "column_break_otho",
+  "smoky",
+  "responsible_medical_officer_section",
+  "mo",
+  "column_break_mrk4",
+  "mosig",
+  "column_break_ykjp",
+  "mosigdat",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_6ysv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dcnam",
+   "fieldtype": "Data",
+   "label": "Name of diagnostic centre"
+  },
+  {
+   "fieldname": "fmno",
+   "fieldtype": "Int",
+   "label": "Form No",
+   "length": 5,
+   "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "patient_identification_information_section",
+   "fieldtype": "Section Break",
+   "label": "PATIENT IDENTIFICATION INFORMATION"
+  },
+  {
+   "fieldname": "culscod",
+   "fieldtype": "Int",
+   "label": "Custer Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "fourcode",
+   "fieldtype": "Data",
+   "label": "4-Digit PIN Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "intdate",
+   "fieldtype": "Date",
+   "label": "Date of Interview"
+  },
+  {
+   "fieldname": "patnam",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fhusnam",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Father/Husband Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tbreg",
+   "fieldtype": "Data",
+   "label": "TB Registration Number",
+   "unique": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "addr",
+   "fieldtype": "Section Break",
+   "label": "Address"
+  },
+  {
+   "fieldname": "vcity",
+   "fieldtype": "Data",
+   "label": "Village/City",
+   "length": 25
+  },
+  {
+   "fieldname": "countnum",
+   "fieldtype": "Data",
+   "label": "Telephone Contact"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "column_break_d4ii",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dist",
+   "fieldtype": "Data",
+   "label": "District "
+  },
+  {
+   "fieldname": "mobnum",
+   "fieldtype": "Phone",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Section Break",
+   "label": "Sex"
+  },
+  {
+   "fieldname": "column_break_cdqn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ovjb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "male",
+   "fieldtype": "Check",
+   "label": "Male"
+  },
+  {
+   "default": "0",
+   "fieldname": "female",
+   "fieldtype": "Check",
+   "label": "Female"
+  },
+  {
+   "fieldname": "specimen",
+   "fieldtype": "Table",
+   "label": "Specimen ID information",
+   "options": "Specieman"
+  },
+  {
+   "depends_on": "eval: doc.yes1==1",
+   "fieldname": "tmom",
+   "fieldtype": "Section Break",
+   "label": "Do you remember taking any treatment for more than one month?"
+  },
+  {
+   "fieldname": "attdug",
+   "fieldtype": "Data",
+   "label": "If yes, do you remember taking any of these drugs (shiw samples all ATT drugs one by one, if yes, write name of drug (s) taken? ))"
+  },
+  {
+   "bold": 1,
+   "fieldname": "tbtmo",
+   "fieldtype": "Section Break",
+   "label": "Have you been previously treated for TB for more than Once?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes1",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no1",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "depends_on": "eval: doc.yes1==1",
+   "fieldname": "wtbt",
+   "fieldtype": "Section Break",
+   "label": "WHERE were you previously treated for TB?"
+  },
+  {
+   "default": "0",
+   "fieldname": "public_sector",
+   "fieldtype": "Check",
+   "label": "Public Sector"
+  },
+  {
+   "fieldname": "column_break_jzcs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_sector",
+   "fieldtype": "Check",
+   "label": "Private Sector"
+  },
+  {
+   "fieldname": "column_break_tnf2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_please_specify",
+   "fieldtype": "Check",
+   "label": "Other. Please specify"
+  },
+  {
+   "bold": 1,
+   "depends_on": "eval: doc.no1==1",
+   "fieldname": "whpttb",
+   "fieldtype": "Section Break",
+   "label": "Do you remeber exactly WHEN were you previously treated for TB?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes2",
+   "fieldtype": "Check",
+   "label": "Yes "
+  },
+  {
+   "fieldname": "column_break_0tma",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no2",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "depends_on": "eval: doc.no1==1",
+   "fieldname": "whpttbn",
+   "fieldtype": "Section Break",
+   "label": "If NO approximately how much time has passed since your previous treatment for TB?"
+  },
+  {
+   "default": "0",
+   "fieldname": "less_then_one_year",
+   "fieldtype": "Check",
+   "label": "Less then one year"
+  },
+  {
+   "default": "0",
+   "fieldname": "between_1_to_2_year",
+   "fieldtype": "Check",
+   "label": "Between 1 to 2 year"
+  },
+  {
+   "default": "0",
+   "fieldname": "between_2_to_5_years",
+   "fieldtype": "Check",
+   "label": "Between 2 to 5 years"
+  },
+  {
+   "default": "0",
+   "fieldname": "more_then_5_years",
+   "fieldtype": "Check",
+   "label": "More then 5 years"
+  },
+  {
+   "depends_on": "eval: doc.yes4==1",
+   "fieldname": "whomt",
+   "fieldtype": "Section Break",
+   "label": "BY WHOM were you previously treated for TB?"
+  },
+  {
+   "default": "0",
+   "fieldname": "doctor",
+   "fieldtype": "Check",
+   "label": "Doctor"
+  },
+  {
+   "default": "0",
+   "fieldname": "nurse",
+   "fieldtype": "Check",
+   "label": "Nurse"
+  },
+  {
+   "default": "0",
+   "fieldname": "pharmacist",
+   "fieldtype": "Check",
+   "label": "Pharmacist"
+  },
+  {
+   "default": "0",
+   "fieldname": "trad_heal1",
+   "fieldtype": "Check",
+   "label": "Traditional healer"
+  },
+  {
+   "default": "0",
+   "fieldname": "other1",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "depends_on": "eval: doc.no1==1",
+   "fieldname": "watkt",
+   "fieldtype": "Section Break",
+   "label": "Do you remeber what kind of treatment was used for treatment?"
+  },
+  {
+   "default": "0",
+   "fieldname": "pills_and_injection",
+   "fieldtype": "Check",
+   "label": "Pills and injection"
+  },
+  {
+   "default": "0",
+   "fieldname": "pills_only",
+   "fieldtype": "Check",
+   "label": "Pills only"
+  },
+  {
+   "default": "0",
+   "fieldname": "injections_only",
+   "fieldtype": "Check",
+   "label": "Injections only "
+  },
+  {
+   "default": "0",
+   "fieldname": "dont_remeber",
+   "fieldtype": "Check",
+   "label": "Don't Remeber"
+  },
+  {
+   "depends_on": "eval: doc.yes1==1",
+   "fieldname": "hlrectr",
+   "fieldtype": "Section Break",
+   "label": "For how long did you receive this treatment?"
+  },
+  {
+   "default": "0",
+   "fieldname": "less_than_a_month",
+   "fieldtype": "Check",
+   "label": "Less than a month"
+  },
+  {
+   "default": "0",
+   "fieldname": "1_to_2_month",
+   "fieldtype": "Check",
+   "label": "1 to 2 month"
+  },
+  {
+   "default": "0",
+   "fieldname": "6_to_8_month",
+   "fieldtype": "Check",
+   "label": "6 to 8 month"
+  },
+  {
+   "fieldname": "others_please_specify",
+   "fieldtype": "Data",
+   "label": "Others please specify"
+  },
+  {
+   "depends_on": "eval: doc.no1==1",
+   "fieldname": "toutcom",
+   "fieldtype": "Section Break",
+   "label": "What was the outcome of the treatment (according to the patient)?"
+  },
+  {
+   "default": "0",
+   "fieldname": "cured1",
+   "fieldtype": "Check",
+   "label": "Cured"
+  },
+  {
+   "default": "0",
+   "fieldname": "not_cured",
+   "fieldtype": "Check",
+   "label": "Not Cured"
+  },
+  {
+   "default": "0",
+   "fieldname": "unknown1",
+   "fieldtype": "Check",
+   "label": "Unknown"
+  },
+  {
+   "depends_on": "eval: doc.yes1==1",
+   "fieldname": "tretrec",
+   "fieldtype": "Section Break",
+   "label": "Do you have medical/treatment records/prescription of your previous treatment?"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes3",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "nmattdrg",
+   "fieldtype": "Data",
+   "label": "If yes note anti TB drugs taken:"
+  },
+  {
+   "fieldname": "medical_records_section",
+   "fieldtype": "Section Break",
+   "label": "MEDICAL RECORDS"
+  },
+  {
+   "fieldname": "patregtbm",
+   "fieldtype": "Section Break",
+   "label": "Patient has been registered for tuberculosis treatement before?"
+  },
+  {
+   "default": "0",
+   "fieldname": "no3",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_a8xg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes4",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "depends_on": "eval: doc.yes4 ==1",
+   "fieldname": "ptotcom",
+   "fieldtype": "Section Break",
+   "label": "If yes, what was the outcome of previous course of treatment ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "cured2",
+   "fieldtype": "Check",
+   "label": "Cured"
+  },
+  {
+   "default": "0",
+   "fieldname": "treatment_completed",
+   "fieldtype": "Check",
+   "label": "Treatment completed"
+  },
+  {
+   "default": "0",
+   "fieldname": "lfu",
+   "fieldtype": "Check",
+   "label": "Loss to Follow up"
+  },
+  {
+   "default": "0",
+   "fieldname": "failure",
+   "fieldtype": "Check",
+   "label": "Failure"
+  },
+  {
+   "default": "0",
+   "fieldname": "transfer_out",
+   "fieldtype": "Check",
+   "label": "Transfer out"
+  },
+  {
+   "depends_on": "eval: doc.no1==1",
+   "fieldname": "dolt",
+   "fieldtype": "Section Break",
+   "label": "Patient has been previously treated for tuberculosis for more than one month ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "no4",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes5",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "doubtful",
+   "fieldtype": "Check",
+   "label": "Doubtful"
+  },
+  {
+   "fieldname": "otptret",
+   "fieldtype": "Section Break",
+   "label": "If you ticked \"Yes\" under what was outcome of previous treatment ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "cured_treatment_completed",
+   "fieldtype": "Check",
+   "label": "Cured/ treatment completed "
+  },
+  {
+   "default": "0",
+   "fieldname": "loss_to_follow_up",
+   "fieldtype": "Check",
+   "label": "Loss to Follow up"
+  },
+  {
+   "default": "0",
+   "fieldname": "relapse_follow_up_not_distinguishable",
+   "fieldtype": "Check",
+   "label": "Relapse/ Follow up not distinguishable "
+  },
+  {
+   "fieldname": "column_break_jx4s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "failed",
+   "fieldtype": "Check",
+   "label": "Failed"
+  },
+  {
+   "default": "0",
+   "fieldname": "relapse",
+   "fieldtype": "Check",
+   "label": "Relapse"
+  },
+  {
+   "default": "0",
+   "fieldname": "chronic",
+   "fieldtype": "Check",
+   "label": "Chronic"
+  },
+  {
+   "default": "0",
+   "fieldname": "unknown",
+   "fieldtype": "Check",
+   "label": "Unknown"
+  },
+  {
+   "fieldname": "coug",
+   "fieldtype": "Section Break",
+   "label": "Do you have complaint of cough ?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "yes6",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no5",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "spucoug",
+   "fieldtype": "Section Break",
+   "label": "Do you have complaint of Sputum while coughing ?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "yes7",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no6",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "bldcoug",
+   "fieldtype": "Section Break",
+   "label": "Do you have complaint of coughing up of blood?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "yes8",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no7",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "chstpnl",
+   "fieldtype": "Section Break",
+   "label": "Do you have complaint of night sweats?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes9",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no8",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "fevrnit",
+   "fieldtype": "Section Break",
+   "label": "Do you have complaint of fever at night ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes10",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no9",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "losapty",
+   "fieldtype": "Section Break",
+   "label": "Do you have complaint of loss of appetite?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes11",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no10",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "loswty",
+   "fieldtype": "Section Break",
+   "label": "Do you have complaint of loss of weight ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes12",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no11",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "othsymp",
+   "fieldtype": "Section Break",
+   "label": "Do you have complaint of other symptoms?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes13",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no12",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "pthsympy",
+   "fieldtype": "Check",
+   "label": "If Yes, which other symptoms?"
+  },
+  {
+   "bold": 1,
+   "fieldname": "mthting",
+   "fieldtype": "Section Break",
+   "label": "What is your moher tongue (To which ethnicity do you belong?)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "punjabi",
+   "fieldtype": "Check",
+   "label": "Punjabi"
+  },
+  {
+   "default": "0",
+   "fieldname": "pushtoon",
+   "fieldtype": "Check",
+   "label": "Pushtoon"
+  },
+  {
+   "default": "0",
+   "fieldname": "urdu_speaking",
+   "fieldtype": "Check",
+   "label": "Urdu Speaking"
+  },
+  {
+   "fieldname": "column_break_kwsv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sindhi",
+   "fieldtype": "Check",
+   "label": "Sindhi"
+  },
+  {
+   "default": "0",
+   "fieldname": "saraki",
+   "fieldtype": "Check",
+   "label": "Saraki"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_specify1",
+   "fieldtype": "Check",
+   "label": "Other specify"
+  },
+  {
+   "fieldname": "column_break_9egn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "balochi",
+   "fieldtype": "Check",
+   "label": "Balochi"
+  },
+  {
+   "default": "0",
+   "fieldname": "kashmiri",
+   "fieldtype": "Check",
+   "label": "Kashmiri"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Section Break",
+   "label": "What is your highest level of education?"
+  },
+  {
+   "default": "0",
+   "fieldname": "no_schooling",
+   "fieldtype": "Check",
+   "label": "No schooling"
+  },
+  {
+   "default": "0",
+   "fieldname": "primary_schoolcompleted",
+   "fieldtype": "Check",
+   "label": "Primary school,completed"
+  },
+  {
+   "default": "0",
+   "fieldname": "secondary_school_completed",
+   "fieldtype": "Check",
+   "label": "Secondary school. completed"
+  },
+  {
+   "fieldname": "column_break_dbf8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "primary_schoolnot_completed",
+   "fieldtype": "Check",
+   "label": "Primary school,not completed"
+  },
+  {
+   "default": "0",
+   "fieldname": "secondary_schoolnot_completed",
+   "fieldtype": "Check",
+   "label": "Secondary school,not completed"
+  },
+  {
+   "default": "0",
+   "fieldname": "furthur_education_after_secondary_school",
+   "fieldtype": "Check",
+   "label": "Furthur education after secondary school"
+  },
+  {
+   "bold": 1,
+   "fieldname": "emplmnt",
+   "fieldtype": "Section Break",
+   "label": "Employment status",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "government_employee",
+   "fieldtype": "Check",
+   "label": "Government employee"
+  },
+  {
+   "default": "0",
+   "fieldname": "pupil_student",
+   "fieldtype": "Check",
+   "label": "Pupil/ student"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_specify2",
+   "fieldtype": "Check",
+   "label": "Other specify"
+  },
+  {
+   "fieldname": "column_break_zxoa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_employee",
+   "fieldtype": "Check",
+   "label": "Private employee"
+  },
+  {
+   "default": "0",
+   "fieldname": "housewife",
+   "fieldtype": "Check",
+   "label": "Housewife"
+  },
+  {
+   "fieldname": "column_break_qddf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "self_employed",
+   "fieldtype": "Check",
+   "label": "Self employed"
+  },
+  {
+   "default": "0",
+   "fieldname": "unemplpyed",
+   "fieldtype": "Check",
+   "label": "Unemplpyed"
+  },
+  {
+   "fieldname": "istemp3",
+   "fieldtype": "Section Break",
+   "label": "If employed, what has been your occupation during last three months ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "business",
+   "fieldtype": "Check",
+   "label": "Business"
+  },
+  {
+   "default": "0",
+   "fieldname": "office_work",
+   "fieldtype": "Check",
+   "label": "Office work"
+  },
+  {
+   "default": "0",
+   "fieldname": "istemp3s",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "fieldname": "column_break_mldr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "shop_keeping",
+   "fieldtype": "Check",
+   "label": "Shop keeping "
+  },
+  {
+   "default": "0",
+   "fieldname": "teacher",
+   "fieldtype": "Check",
+   "label": "Teacher"
+  },
+  {
+   "fieldname": "column_break_vswc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "farming",
+   "fieldtype": "Check",
+   "label": "Farming"
+  },
+  {
+   "default": "0",
+   "fieldname": "manual_labour",
+   "fieldtype": "Check",
+   "label": "Manual labour"
+  },
+  {
+   "fieldname": "number_of_family_members",
+   "fieldtype": "Section Break",
+   "label": "Number of family members"
+  },
+  {
+   "fieldname": "monincms",
+   "fieldtype": "Currency",
+   "label": "Monthly Income"
+  },
+  {
+   "fieldname": "mdicphar",
+   "fieldtype": "Section Break",
+   "label": "Did you buy medicine from pharmacy?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes14",
+   "fieldtype": "Check",
+   "label": "Yes "
+  },
+  {
+   "default": "0",
+   "fieldname": "no13",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "pubhichf",
+   "fieldtype": "Section Break",
+   "label": "Which of the following health care facilities/ providers have you visited to seek treatement adivce for yout symptoms?"
+  },
+  {
+   "default": "0",
+   "fieldname": "public_sec",
+   "fieldtype": "Check",
+   "label": "Public Sector",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_4ehl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes15",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no14",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "hftrets",
+   "fieldtype": "Section Break",
+   "label": "If yes, which one of following public health centres"
+  },
+  {
+   "default": "0",
+   "fieldname": "basic_health_unit",
+   "fieldtype": "Check",
+   "label": "Basic Health Unit"
+  },
+  {
+   "default": "0",
+   "fieldname": "district_hq_hospital",
+   "fieldtype": "Check",
+   "label": "District HQ Hospital"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_practitioner",
+   "fieldtype": "Check",
+   "label": "Private practitioner "
+  },
+  {
+   "default": "0",
+   "fieldname": "trad_heal2",
+   "fieldtype": "Check",
+   "label": "Traditional healer"
+  },
+  {
+   "default": "0",
+   "fieldname": "phramacy",
+   "fieldtype": "Check",
+   "label": "Phramacy"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_specify",
+   "fieldtype": "Check",
+   "label": "Other specify"
+  },
+  {
+   "default": "0",
+   "fieldname": "none",
+   "fieldtype": "Check",
+   "label": "None"
+  },
+  {
+   "fieldname": "column_break_cvmt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "rural_health_center",
+   "fieldtype": "Check",
+   "label": "Rural Health Center"
+  },
+  {
+   "default": "0",
+   "fieldname": "tb_centre",
+   "fieldtype": "Check",
+   "label": "TB Centre"
+  },
+  {
+   "fieldname": "column_break_j8sq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "tehsil_hq_hospital",
+   "fieldtype": "Check",
+   "label": "Tehsil HQ Hospital"
+  },
+  {
+   "fieldname": "advise",
+   "fieldtype": "Section Break",
+   "label": "Have you been advised/ undertaken any other investigation for diagnosis of your illness beside sputum test?"
+  },
+  {
+   "default": "0",
+   "fieldname": "xray",
+   "fieldtype": "Check",
+   "label": "Xray"
+  },
+  {
+   "fieldname": "column_break_fyhe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "blood_test",
+   "fieldtype": "Check",
+   "label": "Blood test"
+  },
+  {
+   "fieldname": "column_break_xuae",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "skin_test",
+   "fieldtype": "Check",
+   "label": "Skin test"
+  },
+  {
+   "fieldname": "column_break_tpuw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other2",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "fieldname": "smok",
+   "fieldtype": "Section Break",
+   "label": "Do you smoke"
+  },
+  {
+   "default": "0",
+   "fieldname": "no15",
+   "fieldtype": "Check",
+   "label": "No "
+  },
+  {
+   "fieldname": "column_break_bxgu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes16",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_otho",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "smoky",
+   "fieldtype": "Data",
+   "label": "If yes, since how many years"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "responsible_medical_officer_section",
+   "fieldtype": "Section Break",
+   "label": "Responsible Medical Officer"
+  },
+  {
+   "fieldname": "mo",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_mrk4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mosig",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_ykjp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mosigdat",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_hyzl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "information_about_pre",
+   "fieldtype": "Section Break",
+   "label": "Information about previous TB treatment"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "TDR",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "yes17",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no17",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes18",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no18",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "have_you_been_previously_treated_for_tb_section",
+   "fieldtype": "Section Break",
+   "label": "Have you been previously treated for TB"
+  },
+  {
+   "depends_on": "eval: doc.yes1==1",
+   "fieldname": "infromation_regarding_previous_illness",
+   "fieldtype": "Section Break",
+   "label": "INFROMATION REGARDING PREVIOUS ILLNESS"
+  },
+  {
+   "fieldname": "for_how_long_have_you_been_sick",
+   "fieldtype": "Data",
+   "label": "For how long have you been sick?"
+  },
+  {
+   "depends_on": "eval: doc.yes1==1",
+   "fieldname": "did_you_have_the_same_symptoms_prior_to_this_episode_section",
+   "fieldtype": "Section Break",
+   "label": "Did you have the same symptoms prior to this episode?"
+  },
+  {
+   "default": "0",
+   "fieldname": "no19",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes19",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_rxc4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval: doc.yes1==1",
+   "fieldname": "dyhanys",
+   "fieldtype": "Section Break",
+   "label": "Did you have other symptoms of lung disease prior to  this episode  (haemoptysis, chest pain, cough etc.)?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes20",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no20",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "depends_on": "eval: doc.yes1==1",
+   "fieldname": "dyhxpte",
+   "fieldtype": "Section Break",
+   "label": "Did you have Xray exam prior to this episode"
+  },
+  {
+   "default": "0",
+   "fieldname": "no21",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes21",
+   "fieldtype": "Check",
+   "label": "Yes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-20 12:12:43.556232",
+ "modified_by": "Administrator",
+ "module": "test",
+ "name": "TDR",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

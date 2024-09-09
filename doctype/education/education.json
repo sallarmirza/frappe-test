@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{##}",
+ "creation": "2024-09-02 11:43:07.760893",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_tvbj",
+  "amended_from",
+  "name1",
+  "column_break_t7d4",
+  "age",
+  "section_break_huuu",
+  "degree",
+  "section_break_kdgf",
+  "district",
+  "verified_districts"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_tvbj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Education",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name "
+  },
+  {
+   "fieldname": "column_break_t7d4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "section_break_huuu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "degree",
+   "fieldtype": "Table",
+   "label": "Degree",
+   "options": "Degree"
+  },
+  {
+   "fieldname": "section_break_kdgf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Table MultiSelect",
+   "label": "District",
+   "options": "District Names"
+  },
+  {
+   "fieldname": "verified_districts",
+   "fieldtype": "Link",
+   "label": "Verified Districts",
+   "options": "District"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-02 16:11:35.023235",
+ "modified_by": "Administrator",
+ "module": "test",
+ "name": "Education",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
